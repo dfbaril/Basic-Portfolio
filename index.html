@@ -2,31 +2,62 @@
 <html lang="en-us">
     <head>
         <title>Dain Baril - Portfolio Homepage</title>
-        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
         <script src="script.js"></script>
     </head>
 
     <body>
-        <!-- I'll probably put my navigation here. I like top navigation bars. I might change my mind. -->
-        <header>Placeholder for nav</header>
+        <div class="header">
+            <!--Sticky header, logo left and nav right-->
+            <div class="container">
+            <!--left side, my name or logo -->
+                <div id="logo">
+                    <h1>Dain Baril</h1>
+                </div>
 
-        <!--This is where I'm going to describe myself. I have no plans for style yet. -->
-        <div id="welcomeBox">
-            <h1>Welcome</h1>
+            <!--Right side, 3 pages linked -->
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="porfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
         </div>
 
-        <div id="aboutMeBox">
-            <h2>About Me:</h2>
-            <img src="assets/images/portfolioabout">
-            <p>Some text about me.</p>
+        <!--Needs a container so I can have content on the left and keep my contact info on the right-->
+        <div class="container">
+            <div class="content">
+                <h2>Welcome</h2>
+                <img src="assets/images/portfolioabout">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tristique imperdiet purus, eu vehicula libero bibendum molestie. Duis facilisis ut sapien quis finibus. Aenean posuere, tortor eu lobortis sodales, sem tellus tempor eros, at malesuada ex sem vitae urna. Nunc consequat purus posuere felis dictum posuere. Nam urna orci, consectetur sed orci at, egestas luctus purus. Curabitur interdum varius convallis. Nunc at eleifend leo. Maecenas vitae magna lorem. In mi velit, dictum sit amet sagittis at, dictum a enim. Vivamus dictum justo sit amet efficitur rutrum. Integer tellus augue, porttitor id ligula in, mattis molestie lorem. Aenean at varius est. Nam a metus nec nulla rhoncus congue.</p>
+
+                <p>Sed posuere enim vel vehicula rutrum. Donec ac urna est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec cursus purus, non accumsan dui. Proin in massa massa. Morbi rutrum eros nec ipsum suscipit, et ultricies augue vulputate. Proin aliquet sem eget nunc commodo porta. Praesent in ante non neque congue tristique sit amet at massa.</p>
+                        
+                <p>Proin et pellentesque odio. Nullam sagittis ligula ex, vel blandit ipsum molestie et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque consequat sem diam, id mattis ipsum facilisis nec. Donec pharetra egestas dictum. Nam risus enim, lacinia ut lorem at, porta vehicula diam. Integer malesuada varius massa, a suscipit leo molestie in. Etiam dignissim at magna eget aliquet. Fusce mi tellus, mattis vel maximus eu, maximus sed arcu. Aliquam eu leo vitae neque maximus dictum eget id elit. Aliquam a mi ac tellus pellentesque pretium a vitae lorem. Phasellus ornare congue mi. Donec hendrerit augue ligula, non semper felis mattis vel.</p>
+                        
+                <p>Phasellus tortor nulla, vulputate a neque id, molestie finibus sapien. Fusce iaculis tincidunt velit sed vestibulum. Vestibulum aliquet risus non tortor commodo tincidunt. Etiam ante nisi, feugiat sit amet feugiat quis, efficitur ac neque. Curabitur eu justo blandit, aliquam est quis, tincidunt orci. Mauris pellentesque interdum suscipit. Praesent vulputate lacus at porttitor pulvinar. Quisque ultrices augue purus, quis accumsan elit tincidunt sed. Fusce nec lacus quis ipsum lobortis faucibus vestibulum non sapien. In hac habitasse platea dictumst. Maecenas consequat, nulla at tempus iaculis, diam quam sodales mauris, a feugiat erat ex sit amet est. Praesent cursus lacus nibh, ac rutrum mauris rhoncus a. Maecenas interdum mi ac accumsan porta.</p>
+                        
+                <p>Donec vitae dui non sem mattis maximus eu eget ipsum. Nulla nec lectus vitae mauris sodales tristique. Duis ornare tincidunt tempus. Suspendisse molestie eleifend est, ut molestie magna consectetur semper. Integer bibendum turpis ut est venenatis, non gravida urna interdum. Phasellus scelerisque tortor at mauris dapibus, sit amet facilisis erat cursus. Nunc tincidunt neque lorem, vitae volutpat turpis elementum quis. Etiam felis neque, iaculis nec ex vitae, maximus tempus turpis. Cras turpis sapien, sollicitudin at pulvinar vitae, finibus sed ipsum. Suspendisse fringilla, sapien sed blandit laoreet, nisi nulla volutpat nisl, a dignissim magna velit quis leo. Ut ligula leo, dictum interdum nunc et, faucibus varius eros.</p>
+            </div>
+
+            <div id="connect">
+                <h3>Connect with Me</h3>
+
+        <!--Img link to stackoverflow and icon-->
+                <a>stackoverflow</a>
+        <!-- Img link to linkedin and icon -->
+                <a>linkedin</a>
+        <!-- IMG link to github and icon -->
+                <a>github</a>
+            </div>
         </div>
 
-        <div id="portfolioBox">
-            <h2>Projects I'm proud of:</h2>
-            <ul id="projectList">
-                <li>first thing I did</li>
-                <li>second thing I did</li>
-            </ul>
+        <!--this is the footer-->
+        <div>
+
         </div>
 
     </body>
