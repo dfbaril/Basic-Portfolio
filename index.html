@@ -7,31 +7,37 @@
     </head>
 
     <body>
-        <div class="header">
-            <!--Sticky header, logo left and nav right-->
-            <div class="container">
-            <!--left side, my name or logo -->
+        <header>
+            <!--No need for this filler
+                <div id="filler">
+
+                </div>
+            -->
+
+            <!--I'm commenting this div out as well because I'm going to try to create 
+                the nav bar using only one block (nav tag).
+                left side, my name or logo 
                 <div id="logo">
                     <h1>Dain Baril</h1>
                 </div>
+            -->
 
             <!--Right side, 3 pages linked -->
-                <div class="nav">
+                <nav>
                     <ul>
                         <li><a href="index.html">About Me</a></li>
                         <li><a href="porfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                     
-                </div>
-            </div>
-        </div>
+                </nav>
+        </header>
 
         <!--Needs a container so I can have content on the left and keep my contact info on the right-->
-        <div class="container">
+        <section class="group">
             <div class="content">
                 <h2>Welcome</h2>
-                <img src="assets/images/portfolioabout">
+                <img src="./assets/images/HaBusiness.jpg" style="float:left">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tristique imperdiet purus, eu vehicula libero bibendum molestie. Duis facilisis ut sapien quis finibus. Aenean posuere, tortor eu lobortis sodales, sem tellus tempor eros, at malesuada ex sem vitae urna. Nunc consequat purus posuere felis dictum posuere. Nam urna orci, consectetur sed orci at, egestas luctus purus. Curabitur interdum varius convallis. Nunc at eleifend leo. Maecenas vitae magna lorem. In mi velit, dictum sit amet sagittis at, dictum a enim. Vivamus dictum justo sit amet efficitur rutrum. Integer tellus augue, porttitor id ligula in, mattis molestie lorem. Aenean at varius est. Nam a metus nec nulla rhoncus congue.</p>
 
                 <p>Sed posuere enim vel vehicula rutrum. Donec ac urna est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec cursus purus, non accumsan dui. Proin in massa massa. Morbi rutrum eros nec ipsum suscipit, et ultricies augue vulputate. Proin aliquet sem eget nunc commodo porta. Praesent in ante non neque congue tristique sit amet at massa.</p>
@@ -42,19 +48,21 @@
                         
                 <p>Donec vitae dui non sem mattis maximus eu eget ipsum. Nulla nec lectus vitae mauris sodales tristique. Duis ornare tincidunt tempus. Suspendisse molestie eleifend est, ut molestie magna consectetur semper. Integer bibendum turpis ut est venenatis, non gravida urna interdum. Phasellus scelerisque tortor at mauris dapibus, sit amet facilisis erat cursus. Nunc tincidunt neque lorem, vitae volutpat turpis elementum quis. Etiam felis neque, iaculis nec ex vitae, maximus tempus turpis. Cras turpis sapien, sollicitudin at pulvinar vitae, finibus sed ipsum. Suspendisse fringilla, sapien sed blandit laoreet, nisi nulla volutpat nisl, a dignissim magna velit quis leo. Ut ligula leo, dictum interdum nunc et, faucibus varius eros.</p>
             </div>
-
             <div id="connect">
-                <h3>Connect with Me</h3>
+                    <h3>Connect with Me</h3>
+    
+            <!--Img link to stackoverflow and icon-->
+                    <a>stackoverflow</a>
+            <!-- Img link to linkedin and icon -->
+                    <a>linkedin</a>
+            <!-- IMG link to github and icon -->
+                    <a>github</a>
+                </div>
+    
 
-        <!--Img link to stackoverflow and icon-->
-                <a>stackoverflow</a>
-        <!-- Img link to linkedin and icon -->
-                <a>linkedin</a>
-        <!-- IMG link to github and icon -->
-                <a>github</a>
-            </div>
-        </div>
-
+            
+        </section>
+       
         <!--this is the footer-->
         <div>
 
